@@ -1,16 +1,18 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">conop</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      Ruby on Rails, Next.js, Django and more. I'm a full-stack developer. You can find me on
+      <a href="https://twitter.com/conop_ConoP" target="_blank" rel="noopener">
+        <font-awesome-icon icon="fa-brands fa-x-twitter" color="white" />
+        @conop_ConoP
+      </a>
+      +
+      <a href="https://github.com/disVill" target="_blank" rel="noopener">
+        <font-awesome-icon icon="fa-brands fa-github" color="white" />
+        @disVill
+      </a>
+      .
     </h3>
   </div>
 </template>
