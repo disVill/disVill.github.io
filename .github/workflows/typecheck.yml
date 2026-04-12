@@ -1,0 +1,21 @@
+name: type-check
+
+on:
+  pull_request:
+
+jobs:
+  type-check:
+    environment:
+      name: Type check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: pnpm install
+        run: pnpm install --frozen-lockfile
+      - name: Typecheck
+        run: pnpm run type-check
