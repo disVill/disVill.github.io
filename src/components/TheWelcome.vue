@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import RubyIcon from './icons/IconRuby.vue'
+import ReactIcon from './icons/IconReact.vue'
+import PythonIcon from './icons/IconPython.vue'
+import TypescriptIcon from './icons/IconTypescript.vue'
+import GolangIcon from './icons/IconGolang.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <RubyIcon />
     </template>
     <template #heading>Ruby, Ruby on Rails</template>
 
@@ -19,7 +19,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <ReactIcon />
     </template>
     <template #heading>React, Next.js</template>
 
@@ -28,7 +28,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <PythonIcon />
     </template>
     <template #heading>Python, Django</template>
 
@@ -37,7 +37,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <TypescriptIcon />
     </template>
     <template #heading>TypeScript Node.js</template>
 
@@ -46,7 +46,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <GolangIcon />
     </template>
     <template #heading>Go</template>
 
